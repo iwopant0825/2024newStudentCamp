@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-image: url("/assets/img/bg.png");
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+}
+
+#score {
+  text-align: center;
+  margin-top: 20px;
+
+  font-weight: 900;
+  font-size: 48px;
+
+  color: white;
+
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+}
+
+#cat {
+  object-position: bottom;
+  object-fit: contain;
+
+  width: 100%;
+  max-width: 600px;
+
+  height: 90%;
+
+  display: block;
+  margin: 0 auto;
+
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  user-select: none;
+}
